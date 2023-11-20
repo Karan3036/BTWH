@@ -16,7 +16,7 @@
                     });
                     toastEvent.fire();
                     $A.get("e.force:closeQuickAction").fire();
-                    window.location.reload();
+                    window.location.();
                 } else {
                     var toastEvent = $A.get("e.force:showToast");
                     toastEvent.setParams({
